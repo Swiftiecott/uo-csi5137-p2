@@ -1,0 +1,105 @@
+[
+  {
+    "id": "ds1",
+    "name": "BuildingEnergyA",
+    "attributes": [
+      "timestamp",
+      "meter_id",
+      "energy_kwh",
+      "indoor_temperature"
+    ]
+  },
+  {
+    "id": "ds2",
+    "name": "BuildingEnergyB",
+    "attributes": [
+      "time",
+      "meter",
+      "consumption",
+      "room_temp"
+    ]
+  },
+  {
+    "id": "ds3",
+    "name": "HVAC_AirHandling",
+    "attributes": [
+      "sensor_time",
+      "device_id",
+      "air_temp",
+      "power_usage"
+    ]
+  },
+  {
+    "id": "ds4",
+    "name": "SolarPanelOutput",
+    "attributes": [
+      "reading_time",
+      "panel_id",
+      "solar_watts",
+      "ambient_temp"
+    ]
+  },
+  {
+    "id": "ds5",
+    "name": "SmartThermostat",
+    "attributes": [
+      "t",
+      "thermostat_id",
+      "current_temp",
+      "heating_state"
+    ]
+  },
+  {
+    "id": "ds6",
+    "name": "IndoorAirQuality",
+    "attributes": [
+      "measured_at",
+      "sensor",
+      "co2_ppm",
+      "humidity",
+      "room_temp"
+    ]
+  },
+  {
+    "id": "ds7",
+    "name": "SmartMetering",
+    "attributes": [
+      "timestamp",
+      "smartmeter",
+      "kwh",
+      "voltage",
+      "current"
+    ]
+  },
+  {
+    "id": "ds8",
+    "name": "LightingControl",
+    "attributes": [
+      "time",
+      "light_id",
+      "brightness",
+      "energy_usage"
+    ]
+  },
+  {
+    "id": "ds9",
+    "name": "BoilerMonitoring",
+    "attributes": [
+      "sample_time",
+      "boiler_id",
+      "water_temp",
+      "energy_flow"
+    ]
+  },
+  {
+    "id": "ds10",
+    "name": "WeatherStation",
+    "attributes": [
+      "recorded_at",
+      "station_id",
+      "outdoor_temp",
+      "solar_irradiance",
+      "humidity"
+    ]
+  }
+]

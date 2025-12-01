@@ -1,0 +1,40 @@
+[
+  {
+    "entity": "EnergyConsumption",
+    "attributes": [
+      "time",
+      "meter",
+      "energy_consumption",
+      "voltage",
+      "current"
+    ]
+  },
+  {
+    "entity": "HVAC",
+    "attributes": [
+      "time",
+      "device_id",
+      "temperature",
+      "power_usage"
+    ]
+  },
+  {
+    "entity": "Environment",
+    "attributes": [
+      "time",
+      "sensor_id",
+      "humidity",
+      "co2",
+      "ambient_temperature"
+    ]
+  },
+  {
+    "entity": "SolarGeneration",
+    "attributes": [
+      "time",
+      "panel_id",
+      "solar_power",
+      "solar_irradiance"
+    ]
+  }
+]
