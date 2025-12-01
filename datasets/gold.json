@@ -1,0 +1,54 @@
+{
+  "ds1": {
+    "timestamp": "time",
+    "meter_id": "meter",
+    "energy_kwh": "energy_consumption",
+    "indoor_temperature": "ambient_temperature"
+  },
+  "ds2": {
+    "time": "time",
+    "meter": "meter",
+    "consumption": "energy_consumption",
+    "room_temp": "ambient_temperature"
+  },
+  "ds3": {
+    "sensor_time": "time",
+    "device_id": "device_id",
+    "air_temp": "temperature",
+    "power_usage": "power_usage"
+  },
+  "ds4": {
+    "reading_time": "time",
+    "panel_id": "panel_id",
+    "solar_watts": "solar_power",
+    "ambient_temp": "ambient_temperature"
+  },
+  "ds5": {
+    "t": "time",
+    "thermostat_id": "device_id",
+    "current_temp": "temperature",
+    "heating_state": null
+  },
+  "ds6": null,
+  "ds7": {
+    "timestamp": "time",
+    "smartmeter": "meter",
+    "kwh": "energy_consumption",
+    "voltage": "voltage",
+    "current": "current"
+  },
+  "ds8": {
+    "time": "time",
+    "light_id": "device_id",
+    "brightness": null,
+    "energy_usage": "energy_consumption"
+  },
+  "ds9": null,
+  "ds10": {
+    "recorded_at": "time",
+    "station_id": "sensor_id",
+    "outdoor_temp": "ambient_temperature",
+    "solar_irradiance": "solar_irradiance",
+    "humidity": "humidity"
+  }
+}
